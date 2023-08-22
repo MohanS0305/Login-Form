@@ -1,0 +1,73 @@
+body{
+    background-image: url(./Sunset.jpg);
+}
+.regform{
+    max-width: 100%;
+    min-width: 220px; 
+    width: 500px;
+    margin: 150px auto;
+    border: 2px solid rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    box-shadow: 4px 2px 4px brown;
+    padding: 10px 6px;
+}
+.regform h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: oblique;
+    color: orange;
+    letter-spacing: 2px;
+}
+.form .input label{
+    display: block;
+    letter-spacing: 2px;
+    color: aliceblue;
+    padding: 5px 0px;
+}
+.radio{
+    padding: 8px 0px;
+}
+.radio label{
+    color: aliceblue;
+}
+.radioInput{
+    transform: scale(1.2);
+}
+.form .input input{
+    padding: 1em 8px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .4s ease-in-out;
+}
+.form .input input:focus{
+    background-color: aquamarine;
+    transition: .2s ease-out;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border: 2px solid rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    transition: .2s ease-in;
+}
+@media  screen and (max-width:1080px) {
+    *{
+        max-height: 100vh;
+        max-width: 100%;
+    }
+    body{
+        background-image: url(./Sunset.jpg);
+        background-repeat: no-repeat;
+        background-size: 500%;
+        background-position: center;
+    }
+}
